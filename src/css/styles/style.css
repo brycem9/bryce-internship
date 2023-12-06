@@ -13172,6 +13172,15 @@ a.read_more i {
   height: auto;
 }
 
+.skele {
+  color: transparent;
+}
+
+
+.nft__div {
+  width: 100%;
+}
+
 .nft_coll {
   background: #ffffff;
   padding-bottom: 10px;
