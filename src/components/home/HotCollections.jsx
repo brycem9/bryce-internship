@@ -6,7 +6,6 @@ import axios from "axios";
 import ReactOwlCarousel from "react-owl-carousel";
 import Skeleton from "../UI/Skeleton";
 
-// collectionData[index].
 
 const HotCollections = () => {
   const [collectionData, setCollectionData] = useState([]);
@@ -19,7 +18,6 @@ const HotCollections = () => {
       );
       setCollectionData(data);
       setLoaded(true);
-      console.log(collectionData);
     }
     fetchHotCollectionsData();
   }, []);
